@@ -26,6 +26,20 @@ header{
     background: transparent;
     font-size: 20px;
 }
+.div-nav{
+    margin-left: 70%;
+    margin-top: 20px;
+  
+}
+.nav a{
+    color: black;
+    text-decoration: none;
+    transition: .3s;
+    font-size: 16px;
+    transition: .3s;
+   
+}
+
 .div-head{
     position: absolute;
     right: 245px;
@@ -49,4 +63,12 @@ header{
 
 .div1 p{
     font: 20px;
+}
+
+.profile-pic img{
+    width: 450px;
+    border-radius: 15%;
+    position: relative;
+    top: 20px;
+    left: 53%;
 }
