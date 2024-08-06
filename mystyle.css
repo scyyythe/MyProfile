@@ -1,0 +1,52 @@
+
+*{
+    margin: 0;
+}
+body{
+    background: url(img/background\ image.png);
+     height: 100vh;
+     background-position: center;
+     background-size: cover;
+}
+header{
+    display: flexs;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px 10%;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.header h1{
+    font-weight: bolder;
+    position: absolute;
+    margin-top: 20px;
+    left: 20px;
+    background: transparent;
+    font-size: 20px;
+}
+.div-head{
+    position: absolute;
+    right: 245px;
+}
+.div-head h1{
+    font-size: 20px;
+    font-weight:bolder;
+}
+.div1{
+    width: 40%;
+    position: absolute;
+    top: 180px;
+    left: 100px;
+    line-height: 2;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.div1 h1{
+    font-size: 40px;
+}
+
+.div1 p{
+    font: 20px;
+}
