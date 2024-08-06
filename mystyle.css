@@ -1,6 +1,7 @@
 
 *{
     margin: 0;
+    text-decoration: none;
 }
 body{
      height: 100vh;
@@ -8,16 +9,17 @@ body{
      background-size: cover;
 }
 header{
-    display: flexs;
+    position:fixed;
     height: 10vh;
     font-family: "Oswald", sans-serif;
     color: black;
-    border-style: double;
-    border-color: gray;
-    border-width: 1px;
+    display: flex;
+    justify-content:space-between;
+
 }
 
 .header h1{
+
     font-weight: bolder;
     position: absolute;
     margin-top: 20px;
@@ -25,16 +27,29 @@ header{
     font-size: 20px;
     
 }
-
-.nav a{
-    color: black;
-    text-decoration: none;
-    transition: .3s;
-    font-size: 16px;
-    transition: .3s;
+.div-head{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
    
 }
-
+.navbar a{
+    color: black;
+}
+.navbar li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    font-size: 17px;
+    position: relative;
+    top: 12px;
+    left: 900px;
+    margin-right:70px;
+}
 .div-head{
     position: absolute;
     left: 50px;
@@ -72,17 +87,30 @@ header{
 .profile-pic img{
     width: 300px;
     position: relative;
+    top: 70px;
     left: 38%;
 }
 
 .div2{
     position: relative;
-    left:950px ;
-    bottom: 200px;
+    top: 400px;
+    border: outset;
+    border-width: 2px;
+    padding: 10px;
+
 }
 .div2 h1{
     font-size: 20px;
     color:  rgb(46, 39, 89);
     font-family: "Oswald", sans-serif;
+    margin-left: 60px;
+}
+
+.div2 li{
+    font-size: 13px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 4;
+    color: black;
+    
 }
 
