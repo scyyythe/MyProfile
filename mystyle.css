@@ -2,12 +2,16 @@
 *{
     margin: 0;
     text-decoration: none;
+    
 }
 body{
      height: 100vh;
+     background: url(img/cover.png);
      background-position: center;
      background-size: cover;
+
 }
+
 header{
     position:fixed;
     height: 10vh;
@@ -30,50 +34,30 @@ header{
 .div-head{
     padding-right: 15px;
     padding-left: 15px;
-}
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-   
-}
-.navbar a{
-    color: black;
-}
-.navbar li {
-    display: inline-block;
-    list-style: none;
-    margin: 10px 20px;
-    font-size: 17px;
-    position: relative;
-    top: 12px;
-    left: 900px;
-    margin-right:70px;
-}
-.div-head{
     position: absolute;
-    left: 50px;
+    left: 85px;
+    color: rgb(46, 39,89);
 }
+
 .div-head h1{
     font-size: 20px;
     font-weight:900;
 }
 .div1{
-    width: 40%;
+    width: 35%;
     position: absolute;
     top: 180px;
-    left: 90px;
+    left: 120px;
     line-height: 2.3;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    border-style: outset;
-   border-radius: 10px;
-   padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    
 }
 
 .div1 h1{
     font-size: 40px;
     color:  rgb(46, 39, 89);
     font-family: "Oswald", sans-serif;
+ 
 }
 .div1 h2{
     font-size: 20px;
@@ -85,12 +69,38 @@ header{
 }
 
 .profile-pic img{
-    width: 300px;
+    width: 450px;
     position: relative;
-    top: 70px;
-    left: 38%;
-}
+    top: 100px;
+    left: 54%;
+    height:450;
 
+}
+.profile-pic img:nth-of-type(2) {
+    width: 580px;
+    position: relative;
+    top: 20px;
+    left:200px;
+    height: 450px;
+    opacity: 0.5;
+   z-index: 1;
+}
+.profile-pic img:nth-of-type(3){
+    width: 230px;
+    top: 180px;;
+    left: 130px;
+    height: 200px;
+  
+}
+.profile-pic img:nth-of-type(4) {
+    width: 580px;
+    position: relative;
+    top: 20px;
+    left:200px;
+    height: 450px;
+    opacity: 0.5;
+   z-index: 1;
+}
 .div2{
     position: relative;
     top: 400px;
@@ -113,4 +123,6 @@ header{
     color: black;
     
 }
+
+
 
