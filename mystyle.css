@@ -44,7 +44,7 @@ header{
     font-weight:900;
 }
 .infos{
-    width: 35%;
+    width: 33%;
     position: absolute;
     top: 180px;
     left: 120px;
@@ -64,8 +64,9 @@ header{
     font-family:"Oswald", sans-serif;
     color: rgb(55, 47, 106);
 }
-.info p{
+.infos p{
     font: 20px;
+    text-align: justify;
 }
 
 .profile-pic img{
@@ -104,7 +105,7 @@ header{
     position:  relative;
     left: 115px;
     width: 25px;
-    top: 10px;
+    top: 30px;
 }
 
 
