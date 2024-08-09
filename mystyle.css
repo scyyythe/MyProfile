@@ -31,7 +31,7 @@ header{
     font-size: 20px;
     
 }
-.div-head{
+.logo{
     padding-right: 15px;
     padding-left: 15px;
     position: absolute;
@@ -39,14 +39,19 @@ header{
     color: rgb(46, 39,89);
 }
 
-.div-head h1{
+.logo h1{
     font-size: 20px;
-    font-weight:900;
+    font-weight:800;
+    
+}
+.logo span{
+    color:#20124D;
+    font-weight: 1000;
 }
 .infos{
     width: 33%;
     position: absolute;
-    top: 180px;
+    top: 140px;
     left: 120px;
     line-height: 2.3;
     font-family: 'Times New Roman', Times, serif;
@@ -68,7 +73,9 @@ header{
     font: 20px;
     text-align: justify;
 }
-
+.infos span{
+    color: #20124D;
+}
 .profile-pic img{
     width: 450px;
     position: relative;
@@ -105,7 +112,24 @@ header{
     position:  relative;
     left: 115px;
     width: 25px;
-    top: 30px;
+    top: 1px;
 }
-
-
+.button-container button {
+    display: flex;   
+   position:relative;
+   top: 30px;
+   left: 117px;
+   height: 10px;
+   width: 122px;
+   font-size: 16px;
+   padding:16px;
+   align-items: center;
+   justify-content: center;
+   border-radius: 30px;
+   border: none;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   color: rgb(38, 2, 53);
+   font-weight: 500;
+   background-image: linear-gradient(#cda4dd, #562d69);
+   box-shadow: 0px 5px 10px rgba(75, 15, 114, 0.719)
+}
