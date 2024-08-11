@@ -9,7 +9,7 @@
 }
 body{
     
-     background: url(img/backg.png);
+     background: url(img/cover.png);
      background-position: center;
      background-size: cover; 
 
@@ -165,7 +165,7 @@ header{
 }
 .heading-interest{
     color: #230b43;
-    font-size: 25px;
+    font-size: 22px;
     font-family: "Oswald", sans-serif;
     margin-left: 30px;
 }
