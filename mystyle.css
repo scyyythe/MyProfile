@@ -1,19 +1,19 @@
-
+*{
+    margin: 0;
+}
 .container{
-    width: 1500px;
+    width: 1700px;
     margin: 0 auto;
-    height: 100vh;
     /* border: solid; */
     align-items: center; 
-    padding: 50px; 
 }
 body{
     
-     /* background: url(img/cover.png); */
-     /* background-position: center;
-     background-size: cover;  */
+     background: url(img/backg.png);
+     background-position: center;
+     background-size: cover; 
 
-     background: linear-gradient(0deg, rgba(167, 97, 191, 0.36) 0%, rgba(225, 216, 232, 0) 100%);  
+     /* background: linear-gradient(0deg, rgba(147, 58, 179, 0.445), rgba(233, 226, 238, 0.26));   */
      background-attachment: fixed;
 
      
@@ -22,79 +22,79 @@ body{
 header{
     width: 100%;
     position:fixed;;
-    height: 50px;
+    height: 60px;
     font-family: "Oswald", sans-serif;
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: #e3cbe980;
+    background-color: transparent;
     z-index:1;
 }
 
 .header h1{
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 25px;
     text-align: left;
-    padding-left: 20px;
+    color:  #230b43;
+    margin-left: 20px;
 }
 .navbar{
     display: flex;
     justify-content: space-between;
+    
 }
 .navbar a{
     color: #230b43;
     margin-left:80px;
     position: relative;
-    left: 570px;
+    left: 900px;
     text-decoration: none;
+    font-size: 24px;
+    margin-right: 60px;
 }
-.logo{
+.navbar a:hover{
+    color: #9871dd;
+}
 
-    margin-left: 110px;
-    color:  #230b43;
-}
-
-.logo h1{
-    font-size: 20px;
-    font-weight:800;
-    
-}
 .main-page{
    position: relative;
-   bottom: 30px;
+   height: 1000px;
+  left: 50px;
+  top: 30px;
 }
 .infos{
-    width: 800px;
+    width: 900px;
     position: absolute;
-    top: 110px;
-    left: 130px;
-    line-height:1.8;
+    top: 230px;
+    left: 10px;
+    line-height:2.5;
     font-family: 'Times New Roman', Times, serif;
+
 }
 
 .infos h1{
-    font-size: 50px;
+    font-size: 75px;
     color: #230b43;
     font-family: "Oswald", sans-serif;
     
 }
    
 .infos h2{
-    font-size: 25px;
+    font-size: 40px;
     font-family:"Oswald", sans-serif;
     color: rgb(55, 47, 106);
 }
 .infos p{
-    font-size: 20px;  
+    font-size: 30px;  
     color:black; 
 }
 
 .profile-pic img{
-    width: 450px;
+    width: 600px;
     position: relative;
-    top: 100px;
-    left: 56%;
-    height:450;
+    top: 200px;
+    left: 60%;
+    height:600px;
 
 }
 
@@ -113,57 +113,57 @@ header{
     margin-left: 60px;
 }
 
-.div2 li{
-    font-size: 13px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    line-height: 4;
-    color: black;
-    
-}
 
 .icons img{
    position: relative;
-   left: 133px;
-    bottom: 50px;
+   top: 30px;
+   left: 10px;
+    width: 40px;
 }
 
 .about{
-    width: 800px;
-    margin-left: 650px;
-    margin-top: 40px;
- 
+    width: 950px;
+    margin-left:700px;
+    padding: 20px;
 }
 
 .about h2{
     color:  rgb(46, 39, 89);
     font-family: "Oswald", sans-serif;
+    font-size: 30px;
 }
 .about p{
     line-height: 3;
     text-align: justify;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 17px;  
+    font-size: 24px;  
     color:black; 
 }
 .about-images{
-    display: flex;
-    gap: 30px;
-    width: 520px;
+
     position: relative;
-    bottom: 320px;
-    left: 40px;
+    bottom: 680px;
 }
 .about-images img{
-    width: 260px;
-    height: 300px;
-    border-radius: 20px;
-
+    width: 600px;
+    height: 550px;
+    border-radius: 50px;
+    margin-top: 100px;
 }
 
 .about-con{
     position: relative;
-    top: 100px;
-    margin: 0 auto;
-    height: 650px;
+    top: 55px;
+    height: 800px;
 }
 
+.container-interest{   
+ 
+   position: relative;
+    height: 600px;
+    padding: 20px;
+}
+.img-interest img{
+    width: 300px;
+    border-radius: 20px;
+}
