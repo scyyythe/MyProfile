@@ -12,8 +12,6 @@ body{
      background: url(img/cover.png);
      background-position: center;
      background-size: cover; 
-
-     /* background: linear-gradient(0deg, rgba(147, 58, 179, 0.445), rgba(233, 226, 238, 0.26));   */
      background-attachment: fixed;
 
      
@@ -27,7 +25,6 @@ header{
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: transparent;
     z-index:1;
 }
 
@@ -38,11 +35,7 @@ header{
     color:  #230b43;
     margin-left: 20px;
 }
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    
-}
+
 .navbar a{
     color: #230b43;
     margin-left:50px;
@@ -97,22 +90,6 @@ header{
     height:600px;
 
 }
-
-.div2{
-    position: relative;
-    top: 400px;
-    border: outset;
-    border-width: 2px;
-    padding: 10px;
-
-}
-.div2 h1{
-    font-size: 20px;
-    color:  rgb(46, 39, 89);
-    font-family: "Oswald", sans-serif;
-    margin-left: 60px;
-}
-
 
 .icons img{
    position: relative;
@@ -184,8 +161,15 @@ header{
 
 .img-reading{
     position: relative;
-}
 
+}
+.img-container img{
+transition: transform 1s;
+    
+}
+.img-reading img:hover{
+   transform: scale(.9);
+}
 .overlay-reading {
     position: absolute;
     top:430px;
@@ -228,7 +212,9 @@ header{
 .overlay-music:hover {
     background-color:#230b43b6;
 }
-
+.img-music img:hover{
+    transform: scale(.9);
+ }
 .img-drawing{
    position: relative;
 }
@@ -251,7 +237,9 @@ header{
 .overlay-draw:hover{
    background-color : #230b43b6;;
 }
-
+.img-drawing img:hover{
+    transform: scale(.9);
+ }
 .img-anime{
     position: relative;
 }
@@ -275,3 +263,6 @@ header{
 .overlay-anime:hover{
     background-color: #230b43b6;;
 }
+.img-anime img:hover{
+    transform: scale(.9);
+ }
