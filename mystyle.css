@@ -1,11 +1,16 @@
 *{
     margin: 0;
 }
+html{
+    scroll-behavior: smooth ;
+}
 .container{
     width: 1700px;
     margin: 0 auto;
-    /* border: solid; */
+
+    border: solid;
     align-items: center; 
+    position: relative;
 }
 body{
     
@@ -14,7 +19,6 @@ body{
      background-size: cover; 
      background-attachment: fixed;
 
-     
 }
 
 header{
@@ -40,7 +44,7 @@ header{
     color: #230b43;
     margin-left:50px;
     position: relative;
-    left: 900px;
+    left: 800px;
     text-decoration: none;
     font-size: 24px;
     margin-right: 60px;
@@ -88,9 +92,11 @@ header{
     top: 200px;
     left: 60%;
     height:600px;
-
+    transition: transform 1s;
 }
-
+.profile-pic img:hover{
+    transform: scale(1.2);
+}
 .icons img{
    position: relative;
    top: 30px;
@@ -126,8 +132,11 @@ header{
     height: 550px;
     border-radius: 50px;
     margin-top: 100px;
+    transition: transform 1s;
 }
-
+.about-images img:hover{
+    transform: scale(1.05);
+}
 .about-con{
     position: relative;
     top: 55px;
@@ -136,7 +145,7 @@ header{
 
 .container-interest{   
    position: relative;
-    height: 600px;
+    height: 500px;
     bottom: 100px;
     margin-top: 30px; 
 }
@@ -265,4 +274,26 @@ transition: transform 1s;
 }
 .img-anime img:hover{
     transform: scale(.9);
+ }
+
+ .skills-container{
+    position: relative;
+    border-style: solid;
+    height: 400px;
+    width: 700px;
+ }
+.skills-container h1{
+    display: flex;
+    justify-content: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    color: #230b43;
+}
+ .list-skills li{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    line-height: 2.5;
+
  }
