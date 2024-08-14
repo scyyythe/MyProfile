@@ -7,14 +7,13 @@ html{
 .container{
     width: 1700px;
     margin: 0 auto;
-
-    border: solid;
+    /* border: solid; */
     align-items: center; 
     position: relative;
 }
 body{
     
-     background: url(img/cover.png);
+     background: url(img/bg-cover.png);
      background-position: center;
      background-size: cover; 
      background-attachment: fixed;
@@ -142,22 +141,26 @@ header{
     top: 55px;
     height: 800px;
 }
-
+.details{
+    position: relative;
+    bottom: 80px;
+}
 .container-interest{   
    position: relative;
-    height: 500px;
-    bottom: 100px;
-    margin-top: 30px; 
+    height: 600px;
+    margin-top: 10px; 
 }
-.heading-interest{
+.container-interest h2{
     color: #230b43;
-    font-size: 22px;
+    font-size: 30px;
     font-family: "Oswald", sans-serif;
-    margin-left: 30px;
 }
 .img-container {
-    display: flex;
-    justify-content: space-evenly;
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 58px;
 }
 
 .img-container img {
@@ -187,7 +190,7 @@ transition: transform 1s;
     background: rgba(0, 0, 0, 0.425); 
     color: #f1f1f1;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     transition: .5s ease;
     border-radius: 20px;
@@ -211,7 +214,7 @@ transition: transform 1s;
     background: rgba(0, 0, 0, 0.425); 
     color: #f1f1f1;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     transition: .5s ease;
     border-radius: 20px;
@@ -236,7 +239,7 @@ transition: transform 1s;
     background: rgba(0, 0, 0, 0.425); 
     color: #f1f1f1;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     transition: .5s ease;
     border-radius: 20px;
@@ -278,22 +281,78 @@ transition: transform 1s;
 
  .skills-container{
     position: relative;
-    border-style: solid;
     height: 400px;
-    width: 700px;
+    width: 800px;
+    background:  rgba(83, 44, 80, 0.137); 
+    color:black;
+    border-radius: 20px;
  }
 .skills-container h1{
-    display: flex;
-    justify-content: center;
+ text-align: center;
     font-family: "Oswald", sans-serif;
     font-size: 30px;
     color: #230b43;
 }
  .list-skills li{
-    font-size: 25px;
+    font-size: 23px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
-    line-height: 2.5;
+    line-height: 2.6;
 
  }
+#education{
+    position: relative;
+    bottom: 400px;
+    float: right;
+    text-align: center;
+    
+}
+.education-container{
+    width: 800px;
+   
+}
+.educ h1{
+    font-family:"Oswald", sans-serif;
+    font-size: 30px;
+    color: #230b43;
+    
+}
+.educ{
+    width: 800px;
+    border-radius: 20px;
+    height: 400px;
+    font-size: 23px;
+    line-height: 2.3;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background:rgba(83, 44, 80, 0.137); 
+    list-style: none;
+}
+ .contact-container{
+    height: 300px;
+    display: flex   ;
+    justify-content: center;
+ }
+
+ .contact-information{
+    width: 900px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    padding: 30px;
+    height: 200px;
+ }
+.contact-container h2{
+    font-family:"Oswald", sans-serif;
+    font-size: 30px;
+    color: #230b43;
+}
+ .contact-container p{
+    font-size: 22px;
+    line-height: 4;
+ }
+
+.contact-information span{
+    color: #2b045e;
+}
