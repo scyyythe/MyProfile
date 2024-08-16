@@ -173,10 +173,10 @@ header{
     position: relative; 
 }
 
-.img-reading{
+.img-reading, .img-music, .img-drawing, .img-anime{
     position: relative;
-
 }
+
 .img-container img{
 transition: transform 1s;
     
@@ -202,10 +202,6 @@ transition: transform 1s;
 
 .overlay-reading:hover {
     background-color:#230b43b6;
-}
-
-.img-music{
-    position:  relative;
 }
 
 .overlay-music{
@@ -254,10 +250,6 @@ transition: transform 1s;
 .img-drawing img:hover{
     transform: scale(.9);
  }
-.img-anime{
-    position: relative;
-}
-
 .overlay-anime{
     position: absolute;
     top: 430px;
@@ -358,3 +350,4 @@ transition: transform 1s;
 .contact-information span{
     color: #2b045e;
 }
+
